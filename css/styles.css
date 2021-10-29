@@ -4047,7 +4047,7 @@ textarea.form-control-lg {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 10.25rem;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -11344,7 +11344,7 @@ p {
   letter-spacing: 0.0625em;
   text-transform: uppercase;
 }
-#mainNav .navbar-brand img {
+#mainNav . img {
   height: 1.5rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -11376,14 +11376,15 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: #f0c518;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
-    height: 1.5rem;
+    height: 5.5rem;
+    width: 8rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
