@@ -20,14 +20,13 @@
     <!-- Core theme CSS (includes Bootstrap)-->
 
     <link href="css/styles.css" rel="stylesheet" />
-
-
-    <link href="css/swiper-bundle.min.css" rel="stylesheet" />
-    <link href="css/glightbox.css" rel="stylesheet"/>
-    <link href="css/boxicons.min.css" rel="stylesheet"/>
-    <link href="css/remixicon.css" rel="stylesheet"/>
-    <link href="css/bootstrap-icons.css" rel="stylesheet"/>
-
+    <link href="vendor/aos/aos.css" rel="stylesheet" />
+    <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">  
+ 
     <meta http-equiv=”Content-Type” content=”text/html; charset=iso-8859-2″>
 
 </head>
@@ -38,7 +37,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="#page-top"><img src="assets/img/LogoPlanIdiomas.png" alt="..."
-                    width=250px /></a>
+                    width=200px /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -49,21 +48,26 @@
 
                     <li class="nav-item"><a class="nav-link" href="#portfolio">Portafolio</a></li>
                     <li class="nav-item"><a class="nav-link" href="#team">Nuestro Equipo</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">Testimonios</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#aboutUS">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#beneficios">Beneficios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonios">Testimonios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#acercaNosotros">Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                    
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Masthead-->
     <header class="masthead">
+
         <div class="masthead-subheading">Bienvenido a</div>
         <div class="masthead-heading text-uppercase">Plan Idiomas</div>
-        <i><a class="btn btn-primary btn-xl text-uppercase" href="#"> "Aprender un idioma es tener una ventana más desde la que ver el mundo"</a></i>
-        <br/><i> <a class="btn btn-primary" style="font-size: 18px;" > "proverio chino"</a></i>
-
+        <i><a class="btn btn-primary btn-xl text-uppercase" href="#"> "Aprender un idioma es tener una ventana más desde la que ver el mundo"</a></i>        
+        <div style="text-align: center; margin-left: 45rem;">
+            <i> <a class="btn btn-primary" style="font-size: 18px;" > "Proverbio Chino"</a></i>
+        </div>
     </header>
+        
 
     
 
@@ -83,117 +87,24 @@
 
 
                 <div class="col-lg-4 col-sm-6 mb-4">
-
                     <!-- Portfolio item 1 PATHWAY-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioPathWay">
-                            <div class="bg-image hover-overlay hover-zoom hover-shadow ripple">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-
-                                <img class="img-fluid" src="assets/img/portfolio/pathway.jpeg" alt="..." />
-
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/pathway.png" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading colorPlanB1">PATHWAY</div>
                             <div class="portfolio-caption-subheading text-muted">Programa de preparación para ingresar a
                                 un College o Universidad Canadiense.</div>
-                            <p class="clasificacion">
-                                <input id="radio1_1" type="radio" name="estrellas_pathway" value="5" checked="true">
-                                <!--
-                                    --><label for="radio1_1">★</label>
-                                <!--
-                                    --><input id="radio2_1" type="radio" name="estrellas_1" value="4">
-                                <!--
-                                    --><label for="radio2_1">★</label>
-                                <!--
-                                    --><input id="radio3_1" type="radio" name="estrellas_1" value="3">
-                                <!--
-                                    --><label for="radio3_1">★</label>
-                                <!--
-                                    --><input id="radio4_1" type="radio" name="estrellas_1" value="2">
-                                <!--
-                                    --><label for="radio4_1">★</label>
-                                <!--
-                                    --><input id="radio5_1" type="radio" name="estrellas_1" value="1">
-                                <!--
-                                    --><label for="radio5_1">★</label>
-                            </p>
+                
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 1 PRINCIPIANTE-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioNivelPrinciante">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/1basico.png" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading colorPlanB1">Nivel Principiante</div>
-                            <div class="portfolio-caption-subheading text-muted">Programa desarrollado para personas que
-                                no tienen preparación previa en el idioma.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6 mb-4">
-
-                    <!-- Portfolio item 2 BASICO-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioNivelBasico">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/6laboralingles.png" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading colorPlanB1 ">Nivel Básico</div>
-                            <div class="portfolio-caption-subheading text-muted">Programa creado para personas que
-                                necesitan expandir su conocimiento del idioma.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 3 INTERMEDIO-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioNivelIntermedio">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/2intermedio.png" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading colorPlanB1">Nivel Intermedio</div>
-                            <div class="portfolio-caption-subheading text-muted">Programa desarrollado para personas que
-                                cuentan con un nivel básico de Inglés.</div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-4 col-sm-6 mb-4">
-
-                    <!-- Portfolio item 3 AVANZADO-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioNivelAvanzado">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/nivelAvanzado.png" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading colorPlanB1 ">Nivel Intermedio Avanzado</div>
-                            <div class="portfolio-caption-subheading text-muted">Programa desarrollado para personas que
-                                no tienen preparación previa en el idioma.</div>
-                        </div>
-                    </div>
-                </div>
+ 
+ 
 
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <!-- Portfolio item 3-->
@@ -249,14 +160,12 @@
             </div>
         </div>
 
-
-
-
     </section>
-
-    <!-- Team-->
+    
+    <main id="main">
+    <!-- Team-->    
     <section class="page-section " id="team">
-        <div class="container">
+        <div class="container position-relative">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase colorPlanB2">Nuestro Equipo</h2>
 
@@ -288,173 +197,186 @@
                 </div>
 
             </div>
-            <div class="row">
-                <div class="col-lg-8 mx-auto" style="text-align: justify;">
-                    <h4>BENEFICIOS</h4>
-                    <div id="carouselExampleControls1" class="carousel slide  " data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
-                            <li data-target="#carouselExampleIndicators1" data-slide-to="3"></li>
-                            <li data-target="#carouselExampleIndicators1" data-slide-to="4"></li>
-                            <li data-target="#carouselExampleIndicators1" data-slide-to="5"></li>
-                            <li data-target="#carouselExampleIndicators1" data-slide-to="6"></li>
-                            <li data-target="#carouselExampleIndicators1" data-slide-to="7"></li>
 
-                        </ol>
-
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="col-lg-8 mx-auto" style="text-align: justify;">
-                                    <div class="card">
-                                        <div class="card-header colorPlanB2Tabla" style="color: aliceblue;">
-                                            Intensividad
-                                        </div>
-                                        <div class="card-body">
-                                            <p>El programa intensivo con 15 horas semanales le permite alcanzar sus
-                                                objetivos de aprendizaje de inglés en el menor tiempo posible, mientras
-                                                crea un entorno de inmersión total en el que estarás expuesto y hablarás
-                                                inglés siempre.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <div class="col-lg-8 mx-auto" style="text-align: justify;">
-                                    <div class="card">
-                                        <div class="card-header colorPlanB2Tabla" style="color: aliceblue;">
-                                            Consistencia
-                                        </div>
-                                        <div class="card-body">
-                                            <p>La práctica diaria crea un hábito y te ayuda a automatizar los patrones
-                                                del lenguaje para lograr fluidez.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <div class="col-lg-8 mx-auto" style="text-align: justify;">
-                                    <div class="card">
-                                        <div class="card-header colorPlanB2Tabla" style="color: aliceblue;">
-                                            Seguimiento
-                                        </div>
-                                        <div class="card-body">
-                                            <p>Recibirás un seguimiento personalizado con tutores en línea listos para
-                                                responder todas tus preguntas y acompañarte en tu camino de aprendizaje.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <div class="col-lg-8 mx-auto" style="text-align: justify;">
-                                    <div class="card">
-                                        <div class="card-header colorPlanB2Tabla" style="color: aliceblue;">
-                                            Personalización
-                                        </div>
-                                        <div class="card-body">
-                                            <p>Los grupos pequeños permiten al profesor ajustar el contenido y la
-                                                metodología a las necesidades de este grupo particular de estudiantes.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <div class="col-lg-8 mx-auto" style="text-align: justify;">
-                                    <div class="card">
-                                        <div class="card-header colorPlanB2Tabla" style="color: aliceblue;">
-                                            Contenido
-                                        </div>
-                                        <div class="card-body">
-                                            <p>El programa fue creado teniendo en cuenta dos aspectos principales: las
-                                                interacciones de la vida cotidiana y el inglés académico necesario para
-                                                los estudiantes universitarios, lo que lo hace encajar en los objetivos
-                                                de la mayoría de nuestros clientes.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="carousel-item">
-                                <div class="col-lg-8 mx-auto" style="text-align: justify;">
-                                    <div class="card">
-                                        <div class="card-header colorPlanB2Tabla" style="color: aliceblue;">
-                                            Comunidad (Slack)
-                                        </div>
-                                        <div class="card-body">
-                                            <p>Pasarás a formar parte de nuestra comunidad en Slack. Es una plataforma
-                                                para la práctica extracurricular, donde encontrarás tutores online que
-                                                te ayudarán con tus dudas y asistirán en tu progreso.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <div class="col-lg-8 mx-auto" style="text-align: justify;">
-                                    <div class="card">
-                                        <div class="card-header colorPlanB2Tabla" style="color: aliceblue;">
-                                            Diversión
-                                        </div>
-                                        <div class="card-body">
-                                            <p>El contenido dinámico con actividades diversas adecuadas para estudiantes
-                                                adultos permite crear un entorno de aprendizaje divertido.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="carousel-item">
-                                <div class="col-lg-8 mx-auto" style="text-align: justify;">
-                                    <div class="card">
-                                        <div class="card-header colorPlanB2Tabla" style="color: aliceblue;">
-                                            Practicidad
-                                        </div>
-                                        <div class="card-body">
-                                            <p>Entendemos que escuchar y hablar son las principales dificultades que los
-                                                estudiantes encuentran a lo largo de su camino de aprendizaje, por lo
-                                                que hemos hecho de estas dos habilidades el núcleo de nuestro programa.
-                                                No solo aprenderás inglés para hacer pruebas de gramática, sino que
-                                                podrás usarlo de manera práctica, hablar y comprender.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <a class="carousel-control-prev" href="#carouselExampleControls1" role="button"
-                            data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls1" role="button"
-                            data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
         </div>
     </section>
 
+</main>
+
+    <section class="page-section " id="beneficios">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase colorPlanB1">Beneficios</h2>
+
+                <h3 class="section-subheading text-muted">Descubre los beneficios de estudiar con nosotros.</h3>
+            </div>
+        </div>        
+        <div class="row">
+            <div class="col-lg-8 mx-auto" style="text-align: justify;">
+                <div id="carouselExampleControls1" class="carousel slide  " data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="5"></li>
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="6"></li>
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="7"></li>
+
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="col-lg-8 mx-auto" style="text-align: justify;">
+                                <div class="card">
+                                    <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
+                                        Intensividad
+                                    </div>
+                                    <div class="card-body">
+                                        <p>El programa intensivo con 15 horas semanales le permite alcanzar sus
+                                            objetivos de aprendizaje de inglés en el menor tiempo posible, mientras
+                                            crea un entorno de inmersión total en el que estarás expuesto y hablarás
+                                            inglés siempre.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="col-lg-8 mx-auto" style="text-align: justify;">
+                                <div class="card">
+                                    <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
+                                        Consistencia
+                                    </div>
+                                    <div class="card-body">
+                                        <p>La práctica diaria crea un hábito y te ayuda a automatizar los patrones
+                                            del lenguaje para lograr fluidez.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="col-lg-8 mx-auto" style="text-align: justify;">
+                                <div class="card">
+                                    <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
+                                        Seguimiento
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Recibirás un seguimiento personalizado con tutores en línea listos para
+                                            responder todas tus preguntas y acompañarte en tu camino de aprendizaje.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="col-lg-8 mx-auto" style="text-align: justify;">
+                                <div class="card">
+                                    <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
+                                        Personalización
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Los grupos pequeños permiten al profesor ajustar el contenido y la
+                                            metodología a las necesidades de este grupo particular de estudiantes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="col-lg-8 mx-auto" style="text-align: justify;">
+                                <div class="card">
+                                    <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
+                                        Contenido
+                                    </div>
+                                    <div class="card-body">
+                                        <p>El programa fue creado teniendo en cuenta dos aspectos principales: las
+                                            interacciones de la vida cotidiana y el inglés académico necesario para
+                                            los estudiantes universitarios, lo que lo hace encajar en los objetivos
+                                            de la mayoría de nuestros clientes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <div class="col-lg-8 mx-auto" style="text-align: justify;">
+                                <div class="card">
+                                    <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
+                                        Comunidad (Slack)
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Pasarás a formar parte de nuestra comunidad en Slack. Es una plataforma
+                                            para la práctica extracurricular, donde encontrarás tutores online que
+                                            te ayudarán con tus dudas y asistirán en tu progreso.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="col-lg-8 mx-auto" style="text-align: justify;">
+                                <div class="card">
+                                    <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
+                                        Diversión
+                                    </div>
+                                    <div class="card-body">
+                                        <p>El contenido dinámico con actividades diversas adecuadas para estudiantes
+                                            adultos permite crear un entorno de aprendizaje divertido.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <div class="col-lg-8 mx-auto" style="text-align: justify;">
+                                <div class="card">
+                                    <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
+                                        Practicidad
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Entendemos que escuchar y hablar son las principales dificultades que los
+                                            estudiantes encuentran a lo largo de su camino de aprendizaje, por lo
+                                            que hemos hecho de estas dos habilidades el núcleo de nuestro programa.
+                                            No solo aprenderás inglés para hacer pruebas de gramática, sino que
+                                            podrás usarlo de manera práctica, hablar y comprender.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselExampleControls1" role="button"
+                        data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls1" role="button"
+                        data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
     <!-- About-->
-    <section class="page-section bg-light" id="about">
+    <section class="page-section bg-light" id="testimonios">
 
 
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase colorPlanB1">TESTIMONIOS</h2>
+                <h2 class="section-heading text-uppercase colorPlanB2">TESTIMONIOS</h2>
                 <h3 class="section-subheading text-muted">Nuestros alumnos nos recomiendan.</h3>
 
             </div>
@@ -469,7 +391,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="col-lg-8 mx-auto text-center">
-                            <div class="row timeline-heading colorPlanB1">
+                            <div class="row timeline-heading colorPlanB2">
                                 <p>Gabriela Mayorga - Intermediate, Ecuador <img src="assets/img/banderas/ecuador.png"
                                         alt="..." width=30px /></p>
                             </div>
@@ -505,7 +427,7 @@
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-8 mx-auto text-center">
-                            <div class="timeline-heading colorPlanB1">
+                            <div class="timeline-heading colorPlanB2">
                                 <p>Yulimar Velasco - Intermediate, Venezuela <img
                                         src="assets/img/banderas/venezuela.png" alt="..." width=30px /></p>
                             </div>
@@ -540,7 +462,7 @@
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-8 mx-auto text-center">
-                            <div class="timeline-heading colorPlanB1">
+                            <div class="timeline-heading colorPlanB2">
                                 <p>Alejandro Centena - Intermediate, Chile <img src="assets/img/banderas/chile.png"
                                         alt="..." width=30px /></p>
                             </div>
@@ -578,7 +500,7 @@
                     <div class="carousel-item">
                         <div class="col-lg-8 mx-auto text-center">
                             <div class="col-sm">
-                                <div class="timeline-heading colorPlanB1">
+                                <div class="timeline-heading colorPlanB2">
                                     <p>Mónica Kiya - IELTS, Perú <img src="assets/img/banderas/peru.png" alt="..."
                                             width=30px /></p>
 
@@ -616,12 +538,12 @@
                 </div>
                 <a class="carousel-control-prev colorPlanB1" href="#carouselExampleControls" role="button"
                     data-slide="prev">
-                    <span class="carousel-control-prev-icon colorPlanB1" aria-hidden="true"></span>
+                    <span class="carousel-control-prev-icon colorPlanB2" aria-hidden="true"></span>
                     <span class="sr-only colorPlanB1">Previous</span>
                 </a>
                 <a class="carousel-control-next colorPlanB1" href="#carouselExampleControls" role="button"
                     data-slide="next">
-                    <span class="carousel-control-next-icon colorPlanB1" aria-hidden="true"></span>
+                    <span class="carousel-control-next-icon colorPlanB2" aria-hidden="true"></span>
                     <span class="sr-only colorPlanB1">Next</span>
                 </a>
             </div>
@@ -650,10 +572,10 @@
 
 
     <!-- Acerca de nosotros-->
-    <section class="page-section " id="aboutUS">
+    <section class="page-section " id="acercaNosotros">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase colorPlanB2">Acerca de nosotros</h2>
+                <h2 class="section-heading text-uppercase colorPlanB1">Acerca de nosotros</h2>
                 <h3 class="section-subheading text-muted">Plan Idiomas es una Empresa que forma parte de Plab B
                     Inmigration Solutions CORP.</h3>
             </div>
@@ -687,7 +609,7 @@
                 </div>
 
                 <div class="col">
-                    <a class="navbar-brand" href="#page-top"><img src="assets/img/LogoPlanIdiomas.png" alt="..."
+                    <a class="navbar-brand" style="margin-left: 6rem;" href="#page-top"><img src="assets/img/LogoPlanIdiomas.png" alt="..."
                             width=250px /></a>
                 </div>
             </div>
@@ -1029,158 +951,6 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Nivel Básico</h2>
-                                <p class="item-intro text-muted">Objetivo: Comunicarse en situaciones familiares
-                                    utilizando lenguaje sencillo
-                                    .</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6laboralingles.png"
-                                    alt="..." />
-                                <ul class="list-inline">
-                                    <li>
-                                        <h1>Precio: $1.750</h1>
-
-                                    </li>
-
-                                </ul>
-                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                                            data-bs-target="#pills-descripcion" type="button" role="tab"
-                                            aria-controls="pills-descripcion" aria-selected="true">Descripción</button>
-
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                                            data-bs-target="#pills-horarios" type="button" role="tab"
-                                            aria-controls="pills-horario" aria-selected="false">Horarios</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                                            data-bs-target="#pills-temario" type="button" role="tab"
-                                            aria-controls="pills-temario" aria-selected="false">Temario</button>
-                                    </li>
-
-                                </ul>
-
-                                <div class="tab-content" id="pills-tabContent">
-                                    <div class="tab-pane fade show active" id="pills-descripcion" role="tabpanel"
-                                        aria-labelledby="pills-home-tab" style="text-align: justify;">
-                                        <p>Los estudiantes aprenden a formar oraciones más complejas y a expresarse de
-                                            maneras más diversas. El enfoque está en la expansión del rango de lenguaje
-                                            y el desarrollo de la flexibilidad preparando al estudiante para hablar de
-                                            forma independiente.
-                                        </p>
-                                    </div>
-                                    <div class="tab-pane fade" id="pills-duracion" role="tabpanel"
-                                        aria-labelledby="pills-profile-tab">
-                                        180 horas en 12 semanas con clases de 2.5 horas (150 min.) de lunes a sábado
-                                    </div>
-                                    <div class="tab-pane fade" id="pills-horarios" role="tabpanel"
-                                        aria-labelledby="pills-contact-tab">
-                                        <div class="row">
-                                            <div class="col-lg-4 col-sm-6 mb-4">
-                                                <div class="card">
-                                                    <div class="card-header">
-                                                        Horario
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <div class="portfolio-item" style="text-align: justify;">
-                                                            <ul>
-                                                                <li>
-                                                                    Lunes a Viernes: 18:00 - 20:30
-                                                                </li>
-                                                                <li>
-                                                                    Sábados: 07:00 a 09:30
-                                                                </li>
-                                                            </ul>
-                                                            Hasta 12 por grupo (en practica no más de 10)
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-4 col-sm-6 mb-4">
-                                                <div class="card">
-                                                    <div class="card-header">
-                                                        Duración
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <div class="portfolio-item" style="text-align: justify;">
-                                                            12 Semanas
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-sm-6 mb-4">
-                                                <div class="card">
-                                                    <div class="card-header">
-                                                        Requisitos
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <div class="portfolio-item" style="text-align: justify;">
-                                                            <ul>
-                                                                <li>
-                                                                    Requisitos nivel mínimo A2
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="tab-pane fade" id="pills-temario" role="tabpanel"
-                                        aria-labelledby="pills-contact-tab">
-                                        <a class="navbar-brand" href="#page-top"><img
-                                                src="assets/img/team/enConstruccion.jpeg" alt="..." width=250px /></a>
-                                    </div>
-                                </div>
-
-                                <h10>Testimoniales del Curso</h10>
-                                <div id="accordion">
-                                    <div class="card">
-                                        <div class="card-header" id="headingOne">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link" data-toggle="collapse"
-                                                    data-target="#collapseOne-nivelBasico" aria-expanded="true"
-                                                    aria-controls="collapseOne-nivelBasico">
-                                                    Luis Tello - basic, Ecuador <img
-                                                        src="assets/img/banderas/ecuador.png" alt="..." width=30px />
-                                                </button>
-                                            </h5>
-                                        </div>
-
-                                        <div id="collapseOne-nivelBasico" class="collapse show"
-                                            aria-labelledby="headingOne" data-parent="#accordion">
-                                            <div class="card-body" style="text-align: justify;">
-                                                Mi experiencia en términos generales ha sido buena, ya que de no saber
-                                                nada a poder comunicarme con lo básico creo que es un buen paso
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingTwo">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                    data-target="#collapseTwo-nivelBasico" aria-expanded="false"
-                                                    aria-controls="collapseTwo-nivelBasico">
-                                                    TESTIMONIO #2
-                                                </button>
-                                            </h5>
-                                        </div>
-                                        <div id="collapseTwo-nivelBasico" class="collapse" aria-labelledby="headingTwo"
-                                            data-parent="#accordion">
-                                            <div class="card-body">
-                                                <a class="navbar-brand" href="#page-top"><img
-                                                        src="assets/img/team/enConstruccion.jpeg" alt="..."
-                                                        width=150px /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
 
                                 <br />
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
@@ -1200,586 +970,9 @@
     </div>
 
 
-    <div class="portfolio-modal modal fade" id="portfolioNivelPrinciante" tabindex="-1" role="dialog"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
-                        alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Nivel Principiante</h2>
-                                <p class="item-intro text-muted">Objetivo: aprender a interactuar en situaciones de
-                                    interés inmediato.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1basico.png"
-                                    alt="..." />
-                                <ul class="list-inline">
-                                    <li>
-                                        <h1>Precio: $1.750</h1>
-
-                                    </li>
-
-                                </ul>
-                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                                            data-bs-target="#pills-descripcion-nivelPrincipiante" type="button"
-                                            role="tab" aria-controls="pills-descripcion-nivelPrincipiante"
-                                            aria-selected="true">Descripción</button>
-
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                                            data-bs-target="#pills-horarios-nivelPrincipiante" type="button" role="tab"
-                                            aria-controls="pills-horarios-nivelPrincipiante"
-                                            aria-selected="false">Horarios</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                                            data-bs-target="#pills-temario-nivelPrincipiante" type="button" role="tab"
-                                            aria-controls="pills-temario-nivelPrincipiante"
-                                            aria-selected="false">Temario</button>
-                                    </li>
-
-                                </ul>
-
-                                <div class="tab-content" id="pills-tabContent">
-                                    <div class="tab-pane fade show active" id="pills-descripcion-nivelPrincipiante"
-                                        role="tabpanel" aria-labelledby="pills-home-tab" style="text-align: justify;">
-                                        <p>Familiarizarse y tener confianza en el uso de estructuras simples en inglés,
-                                            así como crear una base sólida de vocabulario para el avance futuro.</p>
-                                    </div>
-
-                                    <div class="tab-pane fade" id="pills-horarios-nivelPrincipiante" role="tabpanel"
-                                        aria-labelledby="pills-contact-tab">
-                                        <div class="row">
-                                            <div class="col-lg-4 col-sm-6 mb-4">
-                                                <div class="card">
-                                                    <div class="card-header">
-                                                        Horario
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <div class="portfolio-item" style="text-align: justify;">
-                                                            <ul>
-                                                                <li>
-                                                                    Lunes a Viernes: 18:00 - 20:30
-                                                                </li>
-                                                                <li>
-                                                                    Sábados: 07:00 - 09:30
-                                                                </li>
-                                                            </ul>
-                                                            Hasta 12 por grupo (en práctica no más de 10)
-
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-4 col-sm-6 mb-4">
-                                                <div class="card">
-                                                    <div class="card-header">
-                                                        Duración
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <div class="portfolio-item" style="text-align: justify;">
-                                                            12 Semanas
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-sm-6 mb-4">
-                                                <div class="card">
-                                                    <div class="card-header">
-                                                        Requisitos
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <div class="portfolio-item" style="text-align: justify;">
-                                                            N/A
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="tab-pane fade" id="pills-temario-nivelPrincipiante" role="tabpanel"
-                                        aria-labelledby="pills-contact-tab">
-                                        <a class="navbar-brand" href="#page-top"><img
-                                                src="assets/img/team/enConstruccion.jpeg" alt="..." width=250px /></a>
-                                    </div>
-                                </div>
-
-                                <h4>Testimoniales del Curso</h4>
-                                <div id="accordion">
-                                    <div class="card">
-                                        <div class="card-header" id="headingOne">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link" data-toggle="collapse"
-                                                    data-target="#collapseOne-nivelPrincipiante" aria-expanded="true"
-                                                    aria-controls="collapseOne-nivelPrincipiante">
-                                                    TESTIMONIO #1
-                                                </button>
-                                            </h5>
-                                        </div>
-
-                                        <div id="collapseOne-nivelPrincipiante" class="collapse show"
-                                            aria-labelledby="headingOne" data-parent="#accordion">
-                                            <div class="card-body">
-                                                <a class="navbar-brand" href="#page-top"><img
-                                                        src="assets/img/team/enConstruccion.jpeg" alt="..."
-                                                        width=150px /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingTwo">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                    data-target="#collapseTwo-nivelPrincipiante" aria-expanded="false"
-                                                    aria-controls="collapseTwo-nivelPrincipiante">
-                                                    TESTIMONIO #2
-                                                </button>
-                                            </h5>
-                                        </div>
-                                        <div id="collapseTwo-nivelPrincipiante" class="collapse"
-                                            aria-labelledby="headingTwo" data-parent="#accordion">
-                                            <div class="card-body">
-                                                <a class="navbar-brand" href="#page-top"><img
-                                                        src="assets/img/team/enConstruccion.jpeg" alt="..."
-                                                        width=150px /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <br />
-                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
-                                    type="button">
-                                    <i class="fas fa-times me-1"></i>
-                                    Cerrar
-                                </button>
-
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio item 2 modal popup-->
-    <div class="portfolio-modal modal fade" id="portfolioNivelIntermedio" tabindex="-1" role="dialog"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
-                        alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Nivel Intermedio</h2>
-                                <p class="item-intro text-muted">Objetivo: Comprender y hablar con fluidez sobre temas
-                                    familiares y temas de interés común.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2intermedio.png"
-                                    alt="..." />
-
-                                <ul class="list-inline">
-                                    <li>
-                                        <h1>Precio: $1.750</h1>
-
-                                    </li>
-
-                                </ul>
-                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                                            data-bs-target="#pills-descripcion-nivelIntermedio" type="button" role="tab"
-                                            aria-controls="pills-descripcion-nivelIntermedio"
-                                            aria-selected="true">Descripción</button>
-
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                                            data-bs-target="#pills-horarios-nivelIntermedio" type="button" role="tab"
-                                            aria-controls="pills-horario-nivelIntermedio"
-                                            aria-selected="false">Horarios</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                                            data-bs-target="#pills-temario-nivelIntermedio" type="button" role="tab"
-                                            aria-controls="pills-temario-nivelIntermedio"
-                                            aria-selected="false">Temario</button>
-                                    </li>
-
-                                </ul>
-
-                                <div class="tab-content" id="pills-tabContent">
-                                    <div class="tab-pane fade show active" id="pills-descripcion-nivelIntermedio"
-                                        role="tabpanel" aria-labelledby="pills-home-tab" style="text-align: justify;">
-                                        <p> Los estudiantes hacen la transición a la categoría de habla independiente,
-                                            lo que significa que pueden hablar espontáneamente sin depender de frases
-                                            previamente memorizadas. El estudiante aprende a usar una amplia gama de
-                                            gramática para expresarse y recibe una introducción al vocabulario
-                                            académico.</p>
-                                    </div>
-
-                                    <div class="tab-pane fade" id="pills-horarios-nivelIntermedio" role="tabpanel"
-                                        aria-labelledby="pills-contact-tab">
-                                        <div class="row">
-                                            <div class="col-lg-4 col-sm-6 mb-4">
-                                                <div class="card">
-                                                    <div class="card-header">
-                                                        Horario
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <div class="portfolio-item" style="text-align: justify;">
-                                                            <ul>
-                                                                <li>
-                                                                    Lunes a Viernes: 18:00 - 20:30
-                                                                </li>
-                                                                <li>
-                                                                    Sábados: 07:00 a 09:30
-                                                                </li>
-                                                            </ul>
-                                                            Hasta 12 por grupo (en practica no más de 10)
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-4 col-sm-6 mb-4">
-                                                <div class="card">
-                                                    <div class="card-header">
-                                                        Duración
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <div class="portfolio-item" style="text-align: justify;">
-                                                            12 Semanas
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-sm-6 mb-4">
-                                                <div class="card">
-                                                    <div class="card-header">
-                                                        Requisitos
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <div class="portfolio-item" style="text-align: justify;">
-                                                            <ul>
-                                                                <li> Nivel mínimo A2</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="tab-pane fade" id="pills-temario-nivelIntermedio" role="tabpanel"
-                                        aria-labelledby="pills-contact-tab">
-                                        <a class="navbar-brand" href="#page-top"><img
-                                                src="assets/img/team/enConstruccion.jpeg" alt="..." width=150px /></a>
-                                    </div>
-                                </div>
-
-                                <h4>Testimoniales del Curso</h4>
-                                <div id="accordion">
-                                    <div class="card">
-                                        <div class="card-header" id="headingOne">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link" data-toggle="collapse"
-                                                    data-target="#collapseOne-nivelIntermedio" aria-expanded="true"
-                                                    aria-controls="collapseOne-nivelIntermedio">
-                                                    Gabriela Mayorga - intermediate, Ecuador <img
-                                                        src="assets/img/banderas/ecuador.png" alt="..." width=30px />
-                                                </button>
-                                            </h5>
-                                        </div>
-
-                                        <div id="collapseOne-nivelIntermedio" class="collapse show"
-                                            aria-labelledby="headingOne" data-parent="#accordion">
-                                            <div class="card-body" style="text-align: justify;">
-                                                Me sentí realmente satisfecha, las profesoras fueron excelentes,
-                                                amigables; las herramientas de videos, juegos, etc. fueron geniales. Me
-                                                siento más confiada con mi "speaking" que era mi mayor problema y me
-                                                impresiono que estaban al tanto de nuestras evaluaciones y puntos de
-                                                vista para mejorar los cursos. ¡¡Definitivamente lo recomiendo!!
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingTwo">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                    data-target="#collapseTwo-nivelIntermedio" aria-expanded="false"
-                                                    aria-controls="collapseTwo-nivelIntermedio">
-                                                    Verónica Pérez - intermediate, Chile <img
-                                                        src="assets/img/banderas/chile.png" alt="..." width=30px />
-                                                </button>
-                                            </h5>
-                                        </div>
-                                        <div id="collapseTwo-nivelIntermedio" class="collapse"
-                                            aria-labelledby="headingTwo" data-parent="#accordion">
-                                            <div class="card-body" style="text-align: justify;">
-                                                ¡Nada que decir un 100, en mi experiencia me ayudo con el examen del
-                                                college y vi la diferencia de lo que me enseñaron a cuando no había
-                                                hecho ningún curso y hacía este tipo de exámenes, así que súper bien me
-                                                siento feliz con el curso y TODAS las profes son geniales!!! Gracias
-                                                Plan B
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="card">
-                                        <div class="card-header" id="headingThree">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                    data-target="#collapseThree-nivelIntermedio" aria-expanded="false"
-                                                    aria-controls="collapseThree-nivelIntermedio">
-                                                    Alejandro Centena - intermediate, Chile <img
-                                                        src="assets/img/banderas/chile.png" alt="..." width=30px />
-                                                </button>
-                                            </h5>
-                                        </div>
-                                        <div id="collapseThree-nivelIntermedio" class="collapse"
-                                            aria-labelledby="headingTwo" data-parent="#accordion">
-                                            <div class="card-body" style="text-align: justify;">
-                                                El curso cumple su objetivo y efectivamente el aprendizaje intensivo en
-                                                tiempo acotado ayuda a quienes no tienen conocimiento y a los que
-                                                quieren un aprendizaje rápido y efectivo
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                                <br />
-
-
-                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
-                                    type="button">
-                                    <i class="fas fa-times me-1"></i>
-                                    Cerrar
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
 
-    <!-- Portfolio item 2 modal popup-->
-    <div class="portfolio-modal modal fade" id="portfolioNivelAvanzado" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
-                        alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Nivel Intermedio Avanzado</h2>
-                                <p class="item-intro text-muted">Objetivo: Iinteracción fluida y espontánea sobre temas
-                                    concretos y abstractos </p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/nivelAvanzado.png"
-                                    alt="..." />
-
-                                <ul class="list-inline">
-                                    <li>
-                                        <h1>Precio: $1.750</h1>
-
-                                    </li>
-
-                                </ul>
-                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                                            data-bs-target="#pills-descripcion-nivelAvzanzado" type="button" role="tab"
-                                            aria-controls="pills-descripcion-nivelAvanzado"
-                                            aria-selected="true">Descripción</button>
-
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                                            data-bs-target="#pills-horarios-nivelAvanzado" type="button" role="tab"
-                                            aria-controls="pills-horarios-nivelAvanzado"
-                                            aria-selected="false">Horarios</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                                            data-bs-target="#pills-temario-nivelAvanzado" type="button" role="tab"
-                                            aria-controls="pills-temario-nivelAvanzado"
-                                            aria-selected="false">Temario</button>
-                                    </li>
-
-                                </ul>
-
-                                <div class="tab-content" id="pills-tabContent">
-                                    <div class="tab-pane fade show active" id="pills-descripcion-nivelAvanzado"
-                                        role="tabpanel" aria-labelledby="pills-home-tab" style="text-align: justify;">
-                                        <p>Los estudiantes continúan trabajando en accuracy de su idioma y aprenden a
-                                            expresarse de maneras complejas a través de la fusión de ideas de manera
-                                            avanzada y perfeccionan el uso del inglés académico. </p>
-                                    </div>
-
-                                    <div class="tab-pane fade" id="pills-horarios-nivelAvanzado" role="tabpanel"
-                                        aria-labelledby="pills-contact-tab">
-                                        <div class="row">
-                                            <div class="col-lg-4 col-sm-6 mb-4">
-                                                <div class="card">
-                                                    <div class="card-header">
-                                                        Horario
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <div class="portfolio-item" style="text-align: justify;">
-                                                            <ul>
-                                                                <li>
-                                                                    Lunes a Viernes: 18:00 - 20:30
-                                                                </li>
-                                                                <li>
-                                                                    Sábados: 07:00 - 9:30
-                                                                </li>
-                                                            </ul>
-
-                                                            Hasta 12 por grupo (en práctica no más de 10)
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-4 col-sm-6 mb-4">
-                                                <div class="card">
-                                                    <div class="card-header">
-                                                        Duración
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <div class="portfolio-item" style="text-align: justify;">
-                                                            12 Semanas
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-sm-6 mb-4">
-                                                <div class="card">
-                                                    <div class="card-header">
-                                                        Requisitos
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <div class="portfolio-item" style="text-align: justify;">
-                                                            Nivel mínimo B1
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="tab-pane fade" id="pills-temario-nivelAvanzado" role="tabpanel"
-                                        aria-labelledby="pills-contact-tab">
-                                        <a class="navbar-brand" href="#page-top"><img
-                                                src="assets/img/team/enConstruccion.jpeg" alt="..." width=250px /></a>
-                                    </div>
-                                </div>
-
-                                <h4>Testimoniales del Curso</h4>
-                                <div id="accordion">
-                                    <div class="card">
-                                        <div class="card-header" id="headingOne">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link" data-toggle="collapse"
-                                                    data-target="#collapseOne-nivelAvanzado" aria-expanded="true"
-                                                    aria-controls="collapseOne-nivelAvanzado">
-                                                    TESTIMONIO #1
-                                                </button>
-                                            </h5>
-                                        </div>
-
-                                        <div id="collapseOne-nivelAvanzado" class="collapse show"
-                                            aria-labelledby="headingOne" data-parent="#accordion">
-                                            <div class="card-body">
-                                                <a class="navbar-brand" href="#page-top"><img
-                                                        src="assets/img/team/enConstruccion.jpeg" alt="..."
-                                                        width=150px /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingTwo">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                    data-target="#collapseTwo-nivelAvanzado" aria-expanded="false"
-                                                    aria-controls="collapseTwo-nivelAvanzado">
-                                                    TESTIMONIO #2
-                                                </button>
-                                            </h5>
-                                        </div>
-                                        <div id="collapseTwo-nivelAvanzado" class="collapse"
-                                            aria-labelledby="headingTwo" data-parent="#accordion">
-                                            <div class="card-body">
-                                                <a class="navbar-brand" href="#page-top"><img
-                                                        src="assets/img/team/enConstruccion.jpeg" alt="..."
-                                                        width=150px /></a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="card">
-                                        <div class="card-header" id="headingThree">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                    data-target="#collapseThree-nivelAvanzado" aria-expanded="false"
-                                                    aria-controls="collapseThree-nivelAvanzado">
-                                                    TESTIMONIO #3
-                                                </button>
-                                            </h5>
-                                        </div>
-                                        <div id="collapseThree-nivelAvanzado" class="collapse"
-                                            aria-labelledby="headingTwo" data-parent="#accordion">
-                                            <div class="card-body">
-                                                <a class="navbar-brand" href="#page-top"><img
-                                                        src="assets/img/team/enConstruccion.jpeg" alt="..."
-                                                        width=150px /></a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                                <br />
-
-
-                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
-                                    type="button">
-                                    <i class="fas fa-times me-1"></i>
-                                    Cerrar
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Portfolio item 3 modal popup-->
     <div class="portfolio-modal modal fade" id="portfolioIELTS" tabindex="-1" role="dialog" aria-hidden="true">
@@ -1792,7 +985,7 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">IELTS Intensivo</h2>
+                                <h2 class="text-uppercase colorPlanB1">IELTS Intensivo</h2>
                                 <p class="item-intro text-muted">Objetivo: Preparar al estudiante para rendir su prueba
                                     académica de IELTS.</p>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3ielts.png"
@@ -1811,18 +1004,18 @@
                                         <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
                                             data-bs-target="#pills-descripcion-ielts" type="button" role="tab"
                                             aria-controls="pills-descripcion-ielts"
-                                            aria-selected="true">Descripción</button>
+                                            aria-selected="true" style="color:rgb(69, 78, 158);">Descripción</button>
 
                                     </li>
                                     <li class="nav-item" role="presentation">
                                         <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
                                             data-bs-target="#pills-horarios-ielts" type="button" role="tab"
-                                            aria-controls="pills-horario-ielts" aria-selected="false">Horarios</button>
+                                            aria-controls="pills-horario-ielts" aria-selected="false" style="color:rgb(69, 78, 158);">Horarios</button>
                                     </li>
                                     <li class="nav-item" role="presentation">
                                         <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
                                             data-bs-target="#pills-temario-ielts" type="button" role="tab"
-                                            aria-controls="pills-temario-ielts" aria-selected="false">Temario</button>
+                                            aria-controls="pills-temario-ielts" aria-selected="false" style="color:rgb(69, 78, 158);">Temario</button>
                                     </li>
 
                                 </ul>
@@ -1849,7 +1042,7 @@
                                         <div class="row">
                                             <div class="col-lg-4 col-sm-6 mb-4">
                                                 <div class="card">
-                                                    <div class="card-header">
+                                                    <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
                                                         Horario
                                                     </div>
                                                     <div class="card-body">
@@ -1871,7 +1064,7 @@
 
                                             <div class="col-lg-4 col-sm-6 mb-4">
                                                 <div class="card">
-                                                    <div class="card-header">
+                                                    <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
                                                         Duración
                                                     </div>
                                                     <div class="card-body">
@@ -1884,7 +1077,7 @@
                                             </div>
                                             <div class="col-lg-4 col-sm-6 mb-4">
                                                 <div class="card">
-                                                    <div class="card-header">
+                                                    <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
                                                         Requisitos
                                                     </div>
                                                     <div class="card-body">
@@ -1901,9 +1094,9 @@
                                     <div class="tab-pane fade" id="pills-temario-ielts" role="tabpanel"
                                         style="text-align: left;">
 
-                                        <p>COURSE CONTENTS </p>
+                                        <p class="colorPlanB1">COURSE CONTENTS </p>
                                         <div class="card">
-                                            <div class="card-header">
+                                            <div class="card-header colorPlanB1Tabla" style="color:rgb(238, 238, 238);">
                                                 1. LISTENING TRAINING CONTENTS
                                             </div>
                                             <div class="card-body">
@@ -1924,7 +1117,7 @@
 
 
                                         <div class="card">
-                                            <div class="card-header">
+                                            <div class="card-header colorPlanB1Tabla" style="color:rgb(238, 238, 238);">
                                                 2. READING TRAINING CONTENTS
                                             </div>
                                             <div class="card-body">
@@ -1944,7 +1137,7 @@
                                         </div>
 
                                         <div class="card">
-                                            <div class="card-header">
+                                            <div class="card-header colorPlanB1Tabla" style="color:rgb(238, 238, 238);">
                                                 3. WRITING TRAINING CONTENTS
                                             </div>
                                             <div class="card-body" style="text-align: justify;">
@@ -1967,7 +1160,7 @@
                                         </div>
 
                                         <div class="card">
-                                            <div class="card-header">
+                                            <div class="card-header colorPlanB1Tabla" style="color:rgb(238, 238, 238);">
                                                 4. SPEAKING TRAINING CONTENTS
                                             </div>
                                             <div class="card-body" style="text-align: justify;">
@@ -1984,7 +1177,7 @@
                                             </div>
                                         </div>
                                         <div class="card">
-                                            <div class="card-header">
+                                            <div class="card-header colorPlanB1Tabla" style="color:rgb(238, 238, 238);">
                                                 5. DUOLINGO TRAINING CONTENTS
                                             </div>
                                             <div class="card-body"></div>
@@ -2001,11 +1194,11 @@
                                 <h4>Testimoniales del Curso</h4>
                                 <div id="accordion">
                                     <div class="card">
-                                        <div class="card-header" id="headingOne">
+                                        <div class="card-header colorPlanB1Tabla" id="headingOne">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link" data-toggle="collapse"
                                                     data-target="#collapseOne-ielts" aria-expanded="true"
-                                                    aria-controls="collapseOne-ielts">
+                                                    aria-controls="collapseOne-ielts" style="color:rgb(238, 238, 238);">
                                                     Alexander Contreras - IELTS, Chile <img
                                                         src="assets/img/banderas/chile.png" alt="..." width=30px />
                                                 </button>
@@ -2023,11 +1216,11 @@
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="card-header" id="headingTwo">
+                                        <div class="card-header colorPlanB1Tabla" id="headingTwo">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" data-toggle="collapse"
                                                     data-target="#collapseTwo-ielts" aria-expanded="false"
-                                                    aria-controls="collapseTwo-ielts">
+                                                    aria-controls="collapseTwo-ielts" style="color:rgb(238, 238, 238);">
                                                     Monica Kiya - IELTS, Perú <img src="assets/img/banderas/peru.png"
                                                         alt="..." width=30px />
                                                 </button>
@@ -2072,7 +1265,7 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Clubs de conversación para adultos</h2>
+                                <h2 class="text-uppercase colorPlanB1 ">Clubs de conversación para adultos</h2>
                                 <p class="item-intro text-muted">Objetivo: Ayudar a desarrollar la fluidez del habla y
                                     mejorar las habilidades de comprensión auditiva</p>
                                 <img class="img-fluid d-block mx-auto"
@@ -2090,21 +1283,16 @@
                                         <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
                                             data-bs-target="#pills-descripcion-clubAdultos" type="button" role="tab"
                                             aria-controls="pills-descripcion-clubAdultos"
-                                            aria-selected="true">Descripción</button>
+                                            aria-selected="true" style="color:rgb(69, 78, 158);">Descripción</button>
 
                                     </li>
                                     <li class="nav-item" role="presentation">
                                         <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
                                             data-bs-target="#pills-horarios-clubAdultos" type="button" role="tab"
                                             aria-controls="pills-horario-clubAdultos"
-                                            aria-selected="false">Horarios</button>
+                                            aria-selected="false" style="color:rgb(69, 78, 158);">Horarios</button>
                                     </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                                            data-bs-target="#pills-temario-clubAdultos" type="button" role="tab"
-                                            aria-controls="pills-temario-clubAdultos"
-                                            aria-selected="false">Temario</button>
-                                    </li>
+                          
 
                                 </ul>
 
@@ -2124,7 +1312,7 @@
                                         <div class="row">
                                             <div class="col-lg-4 col-sm-6 mb-4">
                                                 <div class="card">
-                                                    <div class="card-header">
+                                                    <div class="card-header colorPlanB1Tabla " style="color: aliceblue;">
                                                         Horario
                                                     </div>
                                                     <div class="card-body">
@@ -2144,7 +1332,7 @@
 
                                             <div class="col-lg-4 col-sm-6 mb-4">
                                                 <div class="card">
-                                                    <div class="card-header">
+                                                    <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
                                                         Duración
                                                     </div>
                                                     <div class="card-body">
@@ -2156,7 +1344,7 @@
                                             </div>
                                             <div class="col-lg-4 col-sm-6 mb-4">
                                                 <div class="card">
-                                                    <div class="card-header">
+                                                    <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
                                                         Requisitos
                                                     </div>
                                                     <div class="card-body">
@@ -2169,60 +1357,10 @@
                                         </div>
 
                                     </div>
-                                    <div class="tab-pane fade" id="pills-temario-clubAdultos" role="tabpanel"
-                                        aria-labelledby="pills-contact-tab">
-                                        <a class="navbar-brand" href="#page-top"><img
-                                                src="assets/img/team/enConstruccion.jpeg" alt="..." width=250px /></a>
-                                    </div>
+                  
                                 </div>
 
-                                <h4>Testimoniales del Curso</h4>
-                                <div id="accordion">
-                                    <div class="card">
-                                        <div class="card-header" id="headingOne">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link" data-toggle="collapse"
-                                                    data-target="#collapseOne-clubAdultos" aria-expanded="true"
-                                                    aria-controls="collapseOne-clubAdultos">
-                                                    TESTIMONIO #1
-                                                </button>
-                                            </h5>
-                                        </div>
-
-                                        <div id="collapseOne-clubAdultos" class="collapse show"
-                                            aria-labelledby="headingOne" data-parent="#accordion">
-                                            <div class="card-body">
-                                                <a class="navbar-brand" href="#page-top"><img
-                                                        src="assets/img/team/enConstruccion.jpeg" alt="..."
-                                                        width=150px /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingTwo">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                    data-target="#collapseTwo-clubAdultos" aria-expanded="false"
-                                                    aria-controls="collapseTwo-clubAdultos">
-                                                    TESTIMONIO #2
-                                                </button>
-                                            </h5>
-                                        </div>
-                                        <div id="collapseTwo-clubAdultos" class="collapse" aria-labelledby="headingTwo"
-                                            data-parent="#accordion">
-                                            <div class="card-body">
-                                                <a class="navbar-brand" href="#page-top"><img
-                                                        src="assets/img/team/enConstruccion.jpeg" alt="..."
-                                                        width=150px /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <br />
-
-
+                                
 
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
@@ -2248,7 +1386,7 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Clubs de conversación para teenagers</h2>
+                                <h2 class="text-uppercase colorPlanB1">Clubs de conversación para teenagers</h2>
                                 <p class="item-intro text-muted">Objetivo: Ayudar a desarrollar la fluidez del habla y
                                     mejorar las habilidades de comprensión auditiva, con temas de interés para
                                     adolescentes.</p>
@@ -2267,21 +1405,16 @@
                                         <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
                                             data-bs-target="#pills-descripcion-clubTeenagers" type="button" role="tab"
                                             aria-controls="pills-descripcion-clubTeenagers"
-                                            aria-selected="true">Descripción</button>
+                                            aria-selected="true" style="color:rgb(69, 78, 158);">Descripción</button>
 
                                     </li>
                                     <li class="nav-item" role="presentation">
                                         <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
                                             data-bs-target="#pills-horarios-clubTeenagers" type="button" role="tab"
                                             aria-controls="pills-horarios-clubTeenagers"
-                                            aria-selected="false">Horarios</button>
+                                            aria-selected="false" style="color:rgb(69, 78, 158);">Horarios</button>
                                     </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                                            data-bs-target="#pills-temario-clubTeenagers" type="button" role="tab"
-                                            aria-controls="pills-temario-clubTeenagers"
-                                            aria-selected="false">Temario</button>
-                                    </li>
+                         
 
                                 </ul>
 
@@ -2297,7 +1430,7 @@
                                         <div class="row">
                                             <div class="col-lg-4 col-sm-6 mb-4">
                                                 <div class="card">
-                                                    <div class="card-header">
+                                                    <div class="card-header colorPlanB1Tabla " style="color: aliceblue;">
                                                         Horario
                                                     </div>
                                                     <div class="card-body">
@@ -2317,7 +1450,7 @@
 
                                             <div class="col-lg-4 col-sm-6 mb-4">
                                                 <div class="card">
-                                                    <div class="card-header">
+                                                    <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
                                                         Duración
                                                     </div>
                                                     <div class="card-body">
@@ -2329,7 +1462,7 @@
                                             </div>
                                             <div class="col-lg-4 col-sm-6 mb-4">
                                                 <div class="card">
-                                                    <div class="card-header">
+                                                    <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
                                                         Requisitos
                                                     </div>
                                                     <div class="card-body">
@@ -2343,59 +1476,10 @@
                                         </div>
 
                                     </div>
-                                    <div class="tab-pane fade" id="pills-temario-clubTeenagers" role="tabpanel"
-                                        aria-labelledby="pills-contact-tab">
-                                        <a class="navbar-brand" href="#page-top"><img
-                                                src="assets/img/team/enConstruccion.jpeg" alt="..." width=250px /></a>
-                                    </div>
+                
                                 </div>
 
-                                <h4>Testimoniales del Curso</h4>
-                                <div id="accordion">
-                                    <div class="card">
-                                        <div class="card-header" id="headingOne">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link" data-toggle="collapse"
-                                                    data-target="#collapseOne-clubTeenagers" aria-expanded="true"
-                                                    aria-controls="collapseOne">
-                                                    TESTIMONIO #1
-                                                </button>
-                                            </h5>
-                                        </div>
-
-                                        <div id="collapseOne-clubTeenagers" class="collapse show"
-                                            aria-labelledby="headingOne" data-parent="#accordion">
-                                            <div class="card-body">
-                                                <a class="navbar-brand" href="#page-top"><img
-                                                        src="assets/img/team/enConstruccion.jpeg" alt="..."
-                                                        width=150px /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingTwo">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                    data-target="#collapseTwo-clubTeenagers" aria-expanded="false"
-                                                    aria-controls="collapseTwo">
-                                                    TESTIMONIO #2
-                                                </button>
-                                            </h5>
-                                        </div>
-                                        <div id="collapseTwo-clubTeenagers" class="collapse"
-                                            aria-labelledby="headingTwo" data-parent="#accordion">
-                                            <div class="card-body">
-                                                <a class="navbar-brand" href="#page-top"><img
-                                                        src="assets/img/team/enConstruccion.jpeg" alt="..."
-                                                        width=150px /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <br />
-
+                         
 
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
@@ -2425,6 +1509,8 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
+
+                                
                                 <!-- Project details-->
                                 <h2 class="text-uppercase colorPlanB1">PathWay</h2>
                                 <p class="item-intro text-muted">Objetivo: Desarrollo del lenguaje en general y
@@ -2445,20 +1531,16 @@
                                         <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
                                             data-bs-target="#pills-descripcion-pathway" type="button" role="tab"
                                             aria-controls="pills-descripcion-pathway"
-                                            aria-selected="true">Descripción</button>
+                                            aria-selected="true" style="color:rgb(69, 78, 158);">Descripción</button>
 
                                     </li>
                                     <li class="nav-item" role="presentation">
                                         <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
                                             data-bs-target="#pills-horarios-pathway" type="button" role="tab"
                                             aria-controls="pills-horario-pathway"
-                                            aria-selected="false">Horarios</button>
+                                            aria-selected="false " style="color:rgb(69, 78, 158);">Horarios</button>
                                     </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                                            data-bs-target="#pills-temario-pathway" type="button" role="tab"
-                                            aria-controls="pills-temario-pathway" aria-selected="false">Temario</button>
-                                    </li>
+         
 
                                 </ul>
 
@@ -2487,25 +1569,25 @@
                                             <tbody>
                                                 <tr>
                                                     <th scope="row">0-A1</th>
-                                                    <td>Principiante</td>
+                                                    <td> <a href="#PathwaynivelPrincipiante" style="color:rgb(233, 129, 10);"> Principiante </a></td>
                                                     <td>12 Semanas</td>
                                                     <td>$1.750</td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">A1-A2</th>
-                                                    <td>Básico</td>
+                                                    <td><a href="#PathwaynivelBasico" style="color:rgb(233, 129, 10);">Básico </a></td>
                                                     <td>12 Semanas</td>
                                                     <td>$2.950</td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">A2-B1</th>
-                                                    <td>Intermedio</td>
+                                                    <td><a href="#PathwaynivelIntermedio" style="color:rgb(233, 129, 10);">Intermedio</td></a>
                                                     <td>12 Semanas</td>
                                                     <td>$3.950</td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">B1-B2</th>
-                                                    <td>Avanzado</td>
+                                                    <td><a href="#PathwaynivelAvanzado" style="color:rgb(233, 129, 10);"> Avanzado</a></td>
                                                     <td>12 Semanas</td>
                                                     <td>$4.950</td>
                                                 </tr>
@@ -2518,7 +1600,7 @@
                                         <div class="row">
                                             <div class="col-lg-4 col-sm-6 mb-4">
                                                 <div class="card">
-                                                    <div class="card-header colorPlanB1Tabla">
+                                                    <div class="card-header colorPlanB1Tabla"  style="color: aliceblue;">
                                                         Horario
                                                     </div>
                                                     <div class="card-body">
@@ -2540,7 +1622,7 @@
 
                                             <div class="col-lg-4 col-sm-6 mb-4">
                                                 <div class="card">
-                                                    <div class="card-header colorPlanB1Tabla">
+                                                    <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
                                                         Duración
                                                     </div>
                                                     <div class="card-body">
@@ -2556,7 +1638,7 @@
                                             </div>
                                             <div class="col-lg-4 col-sm-6 mb-4">
                                                 <div class="card ">
-                                                    <div class="card-header colorPlanB1Tabla">
+                                                    <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
                                                         Precios
                                                     </div>
                                                     <div class="card-body">
@@ -2586,81 +1668,545 @@
                                         </div>
 
                                     </div>
-                                    <div class="tab-pane fade" id="pills-temario-pathway""
-                                        aria-labelledby=" pills-contact-tab">
-                                        <a class="navbar-brand" href="#page-top"><img
-                                                src="assets/img/team/enConstruccion.jpeg" alt="..." width=250px /></a>
-                                    </div>
+         
                                 </div>
 
-                                <h4>Testimoniales del Curso</h4>
-                                <div id="accordion">
-                                    <div class="card">
-                                        <div class="card-header colorPlanB1Tabla" id="headingOne">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link " data-toggle="collapse"
-                                                    data-target="#collapseOne-pathway" aria-expanded="true"
-                                                    aria-controls="collapseOne-pathway">
-                                                    TESTIMONIO #1
-                                                </button>
-                                            </h5>
-                                        </div>
 
-                                        <div id="collapseOne-pathway" class="collapse show" aria-labelledby="headingOne"
-                                            data-parent="#accordion">
-                                            <div class="card-body">
-                                                <a class="navbar-brand" href="#page-top"><img
-                                                        src="assets/img/team/enConstruccion.jpeg" alt="..."
-                                                        width=150px /></a>
+                                <h4></h4>
+
+
+                                <section class="page-section" id="PathwaynivelPrincipiante">
+                                    <div class="container">
+                                        <h2 class="text-uppercase colorPlanB1">Nivel Principiante</h2>
+                                        <p class="item-intro text-muted">Objetivo: aprender a interactuar en situaciones de
+                                            interés inmediato.</p>
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1basico.png"
+                                            alt="..." />
+                                        <ul class="list-inline">
+                                            <li>
+                                                <h1>Precio: $1.750</h1>
+        
+                                            </li>
+        
+                                        </ul>
+                                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                                    data-bs-target="#pills-descripcion-nivelPrincipiante" type="button"
+                                                    role="tab" aria-controls="pills-descripcion-nivelPrincipiante"
+                                                    aria-selected="true" style="color:rgb(69, 78, 158);">Descripción</button>
+        
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                                    data-bs-target="#pills-horarios-nivelPrincipiante" type="button" role="tab"
+                                                    aria-controls="pills-horarios-nivelPrincipiante"
+                                                    aria-selected="false" style="color:rgb(69, 78, 158);">Horarios</button>
+                                            </li>
+               
+        
+                                        </ul>
+        
+                                        <div class="tab-content" id="pills-tabContent">
+                                            <div class="tab-pane fade show active" id="pills-descripcion-nivelPrincipiante"
+                                                role="tabpanel" aria-labelledby="pills-home-tab" style="text-align: justify;">
+                                                <p>Familiarizarse y tener confianza en el uso de estructuras simples en inglés,
+                                                    así como crear una base sólida de vocabulario para el avance futuro.</p>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header colorPlanB1Tabla" id="headingTwo">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                    data-target="#collapseTwo-pathway" aria-expanded="false"
-                                                    aria-controls="collapseTwo-pathway">
-                                                    TESTIMONIO #2
-                                                </button>
-                                            </h5>
-                                        </div>
-                                        <div id="collapseTwo-pathway" class="collapse" aria-labelledby="headingTwo"
-                                            data-parent="#accordion">
-                                            <div class="card-body">
-                                                <a class="navbar-brand" href="#page-top"><img
-                                                        src="assets/img/team/enConstruccion.jpeg" alt="..."
-                                                        width=150px /></a>
+        
+                                            <div class="tab-pane fade" id="pills-horarios-nivelPrincipiante" role="tabpanel"
+                                                aria-labelledby="pills-contact-tab">
+                                                <div class="row">
+                                                    <div class="col-lg-4 col-sm-6 mb-4">
+                                                        <div class="card">
+                                                            <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
+                                                                Horario
+                                                            </div>
+                                                            <div class="card-body">
+                                                                <div class="portfolio-item" style="text-align: justify;">
+                                                                    <ul>
+                                                                        <li>
+                                                                            Lunes a Viernes: 18:00 - 20:30
+                                                                        </li>
+                                                                        <li>
+                                                                            Sábados: 07:00 - 09:30
+                                                                        </li>
+                                                                    </ul>
+                                                                    Hasta 12 por grupo (en práctica no más de 10)
+        
+        
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+        
+                                                    <div class="col-lg-4 col-sm-6 mb-4">
+                                                        <div class="card">
+                                                            <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
+                                                                Duración
+                                                            </div>
+                                                            <div class="card-body">
+                                                                <div class="portfolio-item" style="text-align: justify;">
+                                                                    12 Semanas
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-6 mb-4">
+                                                        <div class="card">
+                                                            <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
+                                                                Requisitos
+                                                            </div>
+                                                            <div class="card-body">
+                                                                <div class="portfolio-item" style="text-align: justify;">
+                                                                    N/A
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
                                             </div>
+                            
                                         </div>
+        
+                                 
+                                </section>          
+                                
 
-                                    </div>
-
-                                    <div class="card">
-                                        <div class="card-header colorPlanB1Tabla" id="headingThree">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                    data-target="#collapseThree-pathway" aria-expanded="false"
-                                                    aria-controls="collapseThree-pathway">
-                                                    TESTIMONIO #3
-                                                </button>
-                                            </h5>
-                                        </div>
-                                        <div id="collapseThree-pathway" class="collapse" aria-labelledby="headingTwo"
-                                            data-parent="#accordion">
-                                            <div class="card-body">
-                                                <a class="navbar-brand" href="#page-top"><img
-                                                        src="assets/img/team/enConstruccion.jpeg" alt="..."
-                                                        width=150px /></a>
+                                <h4></h4>
+                                <section class="page-section" id="PathwaynivelBasico">
+                                    <div class="container">
+                                        <h2 class="text-uppercase colorPlanB1">Nivel Básico</h2>
+                                        <p class="item-intro text-muted">Objetivo: Comunicarse en situaciones familiares
+                                            utilizando lenguaje sencillo
+                                            .</p>
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6laboralingles.png"
+                                            alt="..." />
+                                        <ul class="list-inline">
+                                            <li>
+                                                <h1>Precio: $1.750</h1>
+        
+                                            </li>
+        
+                                        </ul>
+                                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" 
+                                                    data-bs-target="#pills-descripcion" type="button" role="tab" 
+                                                    aria-controls="pills-descripcion" aria-selected="true" style="color:rgb(69, 78, 158);">Descripción</button>
+        
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                                    data-bs-target="#pills-horarios" type="button" role="tab"
+                                                    aria-controls="pills-horario" aria-selected="false" style="color:rgb(69, 78, 158);">Horarios</button>
+                                            </li>
+              
+        
+                                        </ul>
+        
+                                        <div class="tab-content" id="pills-tabContent">
+                                            <div class="tab-pane fade show active" id="pills-descripcion" role="tabpanel"
+                                                aria-labelledby="pills-home-tab" style="text-align: justify;">
+                                                <p>Los estudiantes aprenden a formar oraciones más complejas y a expresarse de
+                                                    maneras más diversas. El enfoque está en la expansión del rango de lenguaje
+                                                    y el desarrollo de la flexibilidad preparando al estudiante para hablar de
+                                                    forma independiente.
+                                                </p>
                                             </div>
+                                            <div class="tab-pane fade" id="pills-duracion" role="tabpanel"
+                                                aria-labelledby="pills-profile-tab">
+                                                180 horas en 12 semanas con clases de 2.5 horas (150 min.) de lunes a sábado
+                                            </div>
+                                            <div class="tab-pane fade" id="pills-horarios" role="tabpanel"
+                                                aria-labelledby="pills-contact-tab">
+                                                <div class="row">
+                                                    <div class="col-lg-4 col-sm-6 mb-4">
+                                                        <div class="card">
+                                                            <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
+                                                                Horario
+                                                            </div>
+                                                            <div class="card-body">
+                                                                <div class="portfolio-item" style="text-align: justify;">
+                                                                    <ul>
+                                                                        <li>
+                                                                            Lunes a Viernes: 18:00 - 20:30
+                                                                        </li>
+                                                                        <li>
+                                                                            Sábados: 07:00 a 09:30
+                                                                        </li>
+                                                                    </ul>
+                                                                    Hasta 12 por grupo (en practica no más de 10)
+        
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+        
+                                                    <div class="col-lg-4 col-sm-6 mb-4">
+                                                        <div class="card">
+                                                            <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
+                                                                Duración
+                                                            </div>
+                                                            <div class="card-body">
+                                                                <div class="portfolio-item" style="text-align: justify;">
+                                                                    12 Semanas
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-6 mb-4">
+                                                        <div class="card">
+                                                            <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
+                                                                Requisitos
+                                                            </div>
+                                                            <div class="card-body">
+                                                                <div class="portfolio-item" style="text-align: justify;">
+                                                                    <ul>
+                                                                        <li>
+                                                                            Requisitos nivel mínimo A2
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                            </div>
+                                    
                                         </div>
+        
+                                        <h10>Testimoniales del Curso</h10>
+                                        <div id="accordion">
+                                            <div class="card">
+                                                <div class="card-header colorPlanB1Tabla" id="headingOne" >
+                                                    <h5 class="mb-0">
+                                                        <button class="btn btn-link" data-toggle="collapse"
+                                                            data-target="#collapseOne-nivelBasico" aria-expanded="true"
+                                                            aria-controls="collapseOne-nivelBasico" style="color:rgb(238, 238, 238);"> 
+                                                            Luis Tello - basic, Ecuador <img
+                                                                src="assets/img/banderas/ecuador.png" alt="..." width=30px />
+                                                        </button>
+                                                    </h5>
+                                                </div>
+        
+                                                <div id="collapseOne-nivelBasico" class="collapse show"
+                                                    aria-labelledby="headingOne" data-parent="#accordion">
+                                                    <div class="card-body" style="text-align: justify;">
+                                                        Mi experiencia en términos generales ha sido buena, ya que de no saber
+                                                        nada a poder comunicarme con lo básico creo que es un buen paso
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header colorPlanB1Tabla" id="headingTwo">
+                                                    <h5 class="mb-0">
+                                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                            data-target="#collapseTwo-nivelBasico" aria-expanded="false"
+                                                            aria-controls="collapseTwo-nivelBasico" style="color:rgb(238, 238, 238);">
+                                                            TESTIMONIO #2
+                                                        </button>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapseTwo-nivelBasico" class="collapse" aria-labelledby="headingTwo"
+                                                    data-parent="#accordion">
+                                                    <div class="card-body">
+                                                        <a class="navbar-brand" href="#page-top"><img
+                                                                src="assets/img/team/enConstruccion.jpeg" alt="..."
+                                                                width=150px /></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+        
+                                        </div>
+        
 
                                     </div>
+                                <section>
 
-                                </div>
+                                    <h4></h4>
+                                    <section class="page-section " id="PathwaynivelIntermedio">
+                                        <div class="container">
+                                            <h2 class="text-uppercase colorPlanB1">Nivel Intermedio</h2>
+                                            <p class="item-intro text-muted">Objetivo: Comprender y hablar con fluidez sobre temas
+                                                familiares y temas de interés común.</p>
+                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2intermedio.png"
+                                                alt="..." />
+            
+                                            <ul class="list-inline">
+                                                <li>
+                                                    <h1>Precio: $1.750</h1>
+            
+                                                </li>
+            
+                                            </ul>
+                                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                                        data-bs-target="#pills-descripcion-nivelIntermedio" type="button" role="tab"
+                                                        aria-controls="pills-descripcion-nivelIntermedio"
+                                                        aria-selected="true" style="color:rgb(69, 78, 158);">Descripción</button>
+            
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                                        data-bs-target="#pills-horarios-nivelIntermedio" type="button" role="tab"
+                                                        aria-controls="pills-horarios-nivelIntermedio"
+                                                        aria-selected="false" style="color:rgb(69, 78, 158);">Horarios</button>
+                                                </li>
+                            
+            
+                                            </ul>
+            
+                                            <div class="tab-content" id="pills-tabContent">
+                                                <div class="tab-pane fade show active" id="pills-descripcion-nivelIntermedio"
+                                                    role="tabpanel" aria-labelledby="pills-home-tab" style="text-align: justify;">
+                                                    <p> Los estudiantes hacen la transición a la categoría de habla independiente,
+                                                        lo que significa que pueden hablar espontáneamente sin depender de frases
+                                                        previamente memorizadas. El estudiante aprende a usar una amplia gama de
+                                                        gramática para expresarse y recibe una introducción al vocabulario
+                                                        académico.</p>
+                                                </div>
+            
+                                                <div class="tab-pane fade" id="pills-horarios-nivelIntermedio" role="tabpanel"
+                                                    aria-labelledby="pills-contact-tab">
+                                                    <div class="row">
+                                                        <div class="col-lg-4 col-sm-6 mb-4">
+                                                            <div class="card">
+                                                                <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
+                                                                    Horario
+                                                                </div>
+                                                                <div class="card-body">
+                                                                    <div class="portfolio-item" style="text-align: justify;">
+                                                                        <ul>
+                                                                            <li>
+                                                                                Lunes a Viernes: 18:00 - 20:30
+                                                                            </li>
+                                                                            <li>
+                                                                                Sábados: 07:00 a 09:30
+                                                                            </li>
+                                                                        </ul>
+                                                                        Hasta 12 por grupo (en practica no más de 10)
+            
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+            
+                                                        <div class="col-lg-4 col-sm-6 mb-4">
+                                                            <div class="card">
+                                                                <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
+                                                                    Duración
+                                                                </div>
+                                                                <div class="card-body">
+                                                                    <div class="portfolio-item" style="text-align: justify;">
+                                                                        12 Semanas
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-sm-6 mb-4">
+                                                            <div class="card">
+                                                                <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
+                                                                    Requisitos
+                                                                </div>
+                                                                <div class="card-body">
+                                                                    <div class="portfolio-item" style="text-align: justify;">
+                                                                        <ul>
+                                                                            <li> Nivel mínimo A2</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+            
+                                                </div>
+                     
+                                            </div>
+            
+                                            <h4>Testimoniales del Curso</h4>
+                                            <div id="accordion">
+                                                <div class="card">
+                                                    <div class="card-header colorPlanB1Tabla" id="headingOne">
+                                                        <h5 class="mb-0">
+                                                            <button class="btn btn-link" data-toggle="collapse"
+                                                                data-target="#collapseOne-nivelIntermedio" aria-expanded="true"
+                                                                aria-controls="collapseOne-nivelIntermedio" style="color:rgb(238, 238, 238);">
+                                                                Gabriela Mayorga - intermediate, Ecuador <img
+                                                                    src="assets/img/banderas/ecuador.png" alt="..." width=30px />
+                                                            </button>
+                                                        </h5>
+                                                    </div>
+            
+                                                    <div id="collapseOne-nivelIntermedio" class="collapse show"
+                                                        aria-labelledby="headingOne" data-parent="#accordion">
+                                                        <div class="card-body" style="text-align: justify;">
+                                                            Me sentí realmente satisfecha, las profesoras fueron excelentes,
+                                                            amigables; las herramientas de videos, juegos, etc. fueron geniales. Me
+                                                            siento más confiada con mi "speaking" que era mi mayor problema y me
+                                                            impresiono que estaban al tanto de nuestras evaluaciones y puntos de
+                                                            vista para mejorar los cursos. ¡¡Definitivamente lo recomiendo!!
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header colorPlanB1Tabla" id="headingTwo">
+                                                        <h5 class="mb-0">
+                                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                                data-target="#collapseTwo-nivelIntermedio" aria-expanded="false"
+                                                                aria-controls="collapseTwo-nivelIntermedio" style="color:rgb(238, 238, 238);">
+                                                                Verónica Pérez - intermediate, Chile <img
+                                                                    src="assets/img/banderas/chile.png" alt="..." width=30px />
+                                                            </button>
+                                                        </h5>
+                                                    </div>
+                                                    <div id="collapseTwo-nivelIntermedio" class="collapse"
+                                                        aria-labelledby="headingTwo" data-parent="#accordion">
+                                                        <div class="card-body" style="text-align: justify;">
+                                                            ¡Nada que decir un 100, en mi experiencia me ayudo con el examen del
+                                                            college y vi la diferencia de lo que me enseñaron a cuando no había
+                                                            hecho ningún curso y hacía este tipo de exámenes, así que súper bien me
+                                                            siento feliz con el curso y TODAS las profes son geniales!!! Gracias
+                                                            Plan B
+                                                        </div>
+                                                    </div>
+            
+                                                </div>
+            
+                                                <div class="card">
+                                                    <div class="card-header colorPlanB1Tabla" id="headingThree">
+                                                        <h5 class="mb-0">
+                                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                                data-target="#collapseThree-nivelIntermedio" aria-expanded="false"
+                                                                aria-controls="collapseThree-nivelIntermedio" style="color:rgb(238, 238, 238);">
+                                                                Alejandro Centena - intermediate, Chile <img
+                                                                    src="assets/img/banderas/chile.png" alt="..." width=30px />
+                                                            </button>
+                                                        </h5>
+                                                    </div>
+                                                    <div id="collapseThree-nivelIntermedio" class="collapse"
+                                                        aria-labelledby="headingTwo" data-parent="#accordion">
+                                                        <div class="card-body" style="text-align: justify;">
+                                                            El curso cumple su objetivo y efectivamente el aprendizaje intensivo en
+                                                            tiempo acotado ayuda a quienes no tienen conocimiento y a los que
+                                                            quieren un aprendizaje rápido y efectivo
+                                                        </div>
+                                                    </div>
+            
+                                                </div>
+            
+                                            </div>
+            
+            
+    
+                                        </div>
+                                    <section>                                
+    
+                                        <h4></h4>
 
-                                <br />
-
+                                <section class="page-section" id="PathwaynivelAvanzado">
+                                    <div class="container">
+                                        <h2 class="text-uppercase colorPlanB1">Nivel Intermedio Avanzado</h2>
+                                        <p class="item-intro text-muted">Objetivo: Iinteracción fluida y espontánea sobre temas
+                                            concretos y abstractos </p>
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/nivelAvanzado.png"
+                                            alt="..." />
+        
+                                        <ul class="list-inline">
+                                            <li>
+                                                <h1>Precio: $1.750</h1>
+        
+                                            </li>
+        
+                                        </ul>
+                                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                                    data-bs-target="#pills-descripcion-nivelAvzanzado" type="button" role="tab"
+                                                    aria-controls="pills-descripcion-nivelAvanzado"
+                                                    aria-selected="true" style="color:rgb(69, 78, 158);">Descripción</button>
+        
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                                    data-bs-target="#pills-horarios-nivelAvanzado" type="button" role="tab"
+                                                    aria-controls="pills-horarios-nivelAvanzado"
+                                                    aria-selected="false" style="color:rgb(69, 78, 158);">Horarios</button>
+                                            </li>
+                      
+        
+                                        </ul>
+        
+                                        <div class="tab-content" id="pills-tabContent">
+                                            <div class="tab-pane fade show active" id="pills-descripcion-nivelAvanzado"
+                                                role="tabpanel" aria-labelledby="pills-home-tab" style="text-align: justify;">
+                                                <p>Los estudiantes continúan trabajando en accuracy de su idioma y aprenden a
+                                                    expresarse de maneras complejas a través de la fusión de ideas de manera
+                                                    avanzada y perfeccionan el uso del inglés académico. </p>
+                                            </div>
+        
+                                            <div class="tab-pane fade" id="pills-horarios-nivelAvanzado" role="tabpanel"
+                                                aria-labelledby="pills-contact-tab">
+                                                <div class="row">
+                                                    <div class="col-lg-4 col-sm-6 mb-4">
+                                                        <div class="card">
+                                                            <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
+                                                                Horario
+                                                            </div>
+                                                            <div class="card-body">
+                                                                <div class="portfolio-item" style="text-align: justify;">
+                                                                    <ul>
+                                                                        <li>
+                                                                            Lunes a Viernes: 18:00 - 20:30
+                                                                        </li>
+                                                                        <li>
+                                                                            Sábados: 07:00 - 9:30
+                                                                        </li>
+                                                                    </ul>
+        
+                                                                    Hasta 12 por grupo (en práctica no más de 10)
+        
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+        
+                                                    <div class="col-lg-4 col-sm-6 mb-4">
+                                                        <div class="card">
+                                                            <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
+                                                                Duración
+                                                            </div>
+                                                            <div class="card-body">
+                                                                <div class="portfolio-item" style="text-align: justify;">
+                                                                    12 Semanas
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-6 mb-4">
+                                                        <div class="card">
+                                                            <div class="card-header colorPlanB1Tabla" style="color: aliceblue;">
+                                                                Requisitos
+                                                            </div>
+                                                            <div class="card-body">
+                                                                <div class="portfolio-item" style="text-align: justify;">
+                                                                    Nivel mínimo B1
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                            </div>
+                               
+                                        </div>
+        
+                                    
+                                    </div>
+                                <section>
 
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
@@ -2691,6 +2237,18 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
+
+        <script src="vendor/aos/aos.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="vendor/php-email-form/validate.js"></script>
+        <script src="vendor/purecounter/purecounter.js"></script>
+        <script src="vendor/swiper/swiper-bundle.min.js"></script>
+      
+        <!-- Template Main JS File -->
+        <script src="js/main.js"></script>
+      
 </body>
 
 </html>
