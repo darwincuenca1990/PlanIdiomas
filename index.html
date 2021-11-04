@@ -647,6 +647,7 @@
                                         <input type="text" name="nombre" id="nombre" class="form-control"
                                             placeholder="Nombre" required>
                                     </div>
+                                    
                                     <br />
                                     <div class="col">
                                         <input type="text" name="telefono" id="telefono" class="form-control"
@@ -657,9 +658,10 @@
                                         <input type="email" name="email" id="email" class="form-control"
                                             placeholder="Direccion Email" required>
                                     </div>
+                                    
                                     <br />
                                     <div class="col">
-                                        <select class="form-select" id="paisResidencia" name="PaisResidencia"
+                                        <select class="form-select form-control" id="paisResidencia" name="PaisResidencia"
                                             id="newField5" aria-label="Pais de residencia">
                                             <option selected>Seleccione su País de Residencia</option>
                                             <option value="Albania">Albania</option>
@@ -880,7 +882,7 @@
 
 
                                     <div class="col">
-                                        <select class="form-select" name="programa" id="programa"
+                                        <select class="form-select form-control" name="programa" id="programa"
                                             aria-label="Programa de Interés.">
                                             <option selected>Seleccione su Programa</option>
                                             <option value="Pathway">Pathway</option>
@@ -904,7 +906,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
-                                <textarea placeholder="Tu Mensaje" class="form-control" name="message" rows="10"
+                                <textarea placeholder="Tu Mensaje" class="form-control" name="message" rows="14"
                                     required></textarea>
                             </div>
                         </div>
@@ -976,7 +978,7 @@
 
     <!-- Portfolio item 3 modal popup-->
     <div class="portfolio-modal modal fade" id="portfolioIELTS" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog ">
             <div class="modal-content">
                 <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
                         alt="Close modal" /></div>
@@ -1496,15 +1498,9 @@
 
     <!-- Portfolio pathway modal popup-->
     <div class="portfolio-modal modal fade" id="portfolioPathWay" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog container">
+        <div class="modal-dialog">
             <div class="modal-content">
-
-
-
-                <div class="close-modal colorPlanB1"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-
-
-
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
@@ -1521,7 +1517,7 @@
 
                                 <ul class="list-inline">
                                     <li>
-                                        <h1>Precio: $4.950 </h1>
+                                        <h1></h1>
 
                                     </li>
 
@@ -1593,6 +1589,34 @@
                                                 </tr>
                                             </tbody>
                                         </table>
+
+                                        <table class="table">
+                                            <thead class="colorPlanB1">
+                                                <tr>
+                                                    <th class="col-sm-3">Valor por niveles</th>
+                                                    <th scope="col">Costo</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">1 Nivel</th>                                                    
+                                                    <td>$1.750</td>                                                    
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2 Niveles</th>                                                                                                        
+                                                    <td>$2.950</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">3 Niveles</th>
+                                                    <td>$3.950</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">4 Niveles</th>
+                                                    <td>$4.950</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
                                     </div>
 
                                     <div class="tab-pane fade" id="pills-horarios-pathway" role="tabpanel"
