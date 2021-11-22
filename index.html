@@ -644,7 +644,7 @@
                                         <input type="text" maxlength="40" size="20" name="first_name" id="first_name" class="form-control"
                                             placeholder="Nombre" required>
                                     </div>
-                                    
+                                    <input id="lead_source" name="lead_source" type="hidden" value="Plan Idiomas" />
                                     <br />
                                     <div class="col">
                                         <input type="text" maxlength="40" size="20" name="mobile" id="mobile" class="form-control"
@@ -680,7 +680,7 @@
                                             <option value="Belarús">Belarús</option>
                                             <option value="Belice">Belice</option>
                                             <option value="Benin">Benin</option>
-                                            <option value="Bhután"></option>
+                                            <option value="Bhután">Bhután</option>
                                             <option value="Bolivia">Bolivia</option>
                                             <option value="Bosnia y Herzegovina">Bosnia y Herzegovina</option>
                                             <option value="Botswana">Botswana</option>
@@ -926,15 +926,14 @@
             <div class="row align-items-center">
                 <div class="col-lg-4 text-lg-start">Copyright &copy; PlanIdiomas 2021</div>
                 <div class="col-lg-4 my-3 my-lg-0">
-                    <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/planidiomas"><i
-                            class="fab fa-twitter"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/planbimmigration/"><i
+                            class="fab fa-instagram"></i></a>
                     <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/PlanBimmigrationS"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                            class="fab fa-facebook-f"></i>
+                    </a>
                 </div>
                 <div class="col-lg-4 text-lg-end">
-                    <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                    <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+
                 </div>
             </div>
         </div>
@@ -2292,7 +2291,7 @@
       
         <script src="https://www.google.com/recaptcha/api.js"></script>
         <script>
-         function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500); 
+         function timestamp() { var response = document.getElementById("g-recaptcha"); if (response === null || response.value.trim() === "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500); 
         </script>
         
 </body>
