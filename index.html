@@ -631,36 +631,42 @@
                 https://formspree.io/f/meqvdpaw-->
             <!-- to get an API token!-->
             <div class="container">
-                <form target="_blank" action="https://formsubmit.co/darwincuenca1990@gmail.com" method="POST">
+                <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+                    <input type=hidden name='captcha_settings' value='{"keyname":"Contact_Us_ReCaptcha","fallback":"true","orgId":"00D5w000003WeAi","ts":""}'>
+                    <input type=hidden name="oid" value="00D5w000003WeAi">
+                    <input type=hidden name="retURL" value="https://planbimmigration.com">
+                    
+                    
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
                                 <div class="form-row">
                                     <div class="col">
-                                        <input type="text" name="apellido" id="apellido" class="form-control"
+                                        <input type="text" maxlength="80" size="20" name="last_name" id="last_name" class="form-control"
                                             placeholder="Apellido" required>
                                     </div>
                                     <br />
                                     <div class="col">
-                                        <input type="text" name="nombre" id="nombre" class="form-control"
+                                        <input type="text" maxlength="40" size="20" name="first_name" id="first_name" class="form-control"
                                             placeholder="Nombre" required>
                                     </div>
                                     
                                     <br />
                                     <div class="col">
-                                        <input type="text" name="telefono" id="telefono" class="form-control"
+                                        <input type="text" maxlength="40" size="20" name="mobile" id="mobile" class="form-control"
                                             placeholder="Telefono" required>
                                     </div>
                                     <br />
                                     <div class="col">
-                                        <input type="email" name="email" id="email" class="form-control"
+                                        <input type="email" maxlength="80" size="20" name="email" id="email" class="form-control"
                                             placeholder="Direccion Email" required>
                                     </div>
                                     
                                     <br />
                                     <div class="col">
-                                        <select class="form-select form-control" id="paisResidencia" name="PaisResidencia"
-                                            id="newField5" aria-label="Pais de residencia">
+                                        <select class="form-select form-control" id="00N5w00000RxOlw" name="00N5w00000RxOlw"
+                                            id="newField5" aria-label="Pais de residencia" required>
                                             <option selected>Seleccione su País de Residencia</option>
                                             <option value="Albania">Albania</option>
                                             <option value="Alemania">Alemania</option>
@@ -880,8 +886,8 @@
 
 
                                     <div class="col">
-                                        <select class="form-select form-control" name="programa" id="programa"
-                                            aria-label="Programa de Interés.">
+                                        <select class="form-select form-control" id="00N5w00000Rxc8L" name="00N5w00000Rxc8L"
+                                            aria-label="Programa de Interés." required>
                                             <option selected>Seleccione su Programa</option>
                                             <option value="Pathway">Pathway</option>
                                             <option value="Nivel Principiante">Nivel Principiante</option>
@@ -904,13 +910,13 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
-                                <textarea placeholder="Tu Mensaje" class="form-control" name="message" rows="14"
-                                    required></textarea>
+                                <textarea placeholder="Tu Mensaje" id="00N5w00000NqPf4" name="00N5w00000NqPf4" class="form-control" name="message" rows="14"
+                                    required wrap="soft"></textarea>
                             </div>
                         </div>
                     </div>
                     <br />
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton"
+                    <div class="text-center" data-sitekey="6Ld8I6cZAAAAAH8tC-psZgH2Gp8YrzAjz8t12GjY"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton"
                             type="submit">Enviar Mensaje</button></div>
                 </form>
 
@@ -2271,6 +2277,11 @@
         <!-- Template Main JS File -->
         <script src="js/main.js"></script>
       
+        <script src="https://www.google.com/recaptcha/api.js"></script>
+        <script>
+         function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500); 
+        </script>
+        
 </body>
 
 </html>
